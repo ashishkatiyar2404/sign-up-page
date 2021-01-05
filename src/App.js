@@ -57,10 +57,7 @@ export default function App() {
           may take a few minutes to arrive.
         </p>
       </div>
-      <textarea
-        placeholder="Please paste authorization code"
-        autofocus
-      ></textarea>
+      <textarea placeholder="Please paste authorization code"></textarea>
       <button className="login_button">Log in</button>
     </div>
   );
