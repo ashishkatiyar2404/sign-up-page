@@ -1,0 +1,152 @@
+/* *{
+  margin: 0 auto;
+  padding: 0;p
+  box-sizing: border-box;
+} */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: block;
+}
+h1 {
+  position: absolute;
+  width: 250px;
+  height: 0px;
+  left: 600px;
+  top: 10px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+}
+h4 {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  left: 500px;
+  top: 70px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  background: #181229;
+  color: #ffffff;
+  padding-top: 20px;
+}
+hr {
+  position: absolute;
+  width: 500px;
+  height: 0px;
+  left: 500px;
+  top: 180px;
+  border: 2px solid #e5e5e5;
+  transform: rotate(-0.28deg);
+}
+.email {
+  position: absolute;
+  width: 500px;
+  height: 80px;
+  left: 500px;
+  top: 210px;
+  background: #f3f3f6;
+  border: 2px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+span {
+  position: absolute;
+  left: 30px;
+  top: 5px;
+  color: #9b9eb0;
+}
+p {
+  position: absolute;
+  width: 320px;
+  height: 30px;
+  left: 16px;
+  top: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+  color: #181229;
+}
+.email__message {
+  position: absolute;
+  width: 500px;
+  height: 140px;
+  left: 500px;
+  top: 300px;
+  background: #e8f8f7;
+  border-radius: 8px;
+}
+
+.email__message .first_child {
+  width: 350px;
+  height: 36px;
+  left: 70px;
+  top: -20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.email__message .second_child {
+  width: 500px;
+  height: 100px;
+  left: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.email__message__svg {
+  position: absolute;
+  left: 3%;
+  right: -8.33%;
+  top: 38.33%;
+  bottom: -8.33%;
+  background: rgba(0, 0, 0, 0);
+}
+
+textarea {
+  position: absolute;
+  width: 500px;
+  height: 80px;
+  left: 500px;
+  top: 450px;
+  padding: 20px;
+  background: #ffffff;
+  border: 4px solid #181229;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+::placeholder {
+  font-family: Inter;
+  font-size: 25px;
+  line-height: 30px;
+  color: gray;
+}
+
+button {
+  position: absolute;
+  width: 500px;
+  height: 80px;
+  left: 500px;
+  top: 540px;
+  font-size: larger;
+  font-weight: 700;
+  background: #ffffff;
+  border: 4px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
